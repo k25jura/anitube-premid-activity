@@ -53,6 +53,7 @@ PreMiD Discord Rich Presence activity for [AniTube.in.ua](https://anitube.in.ua/
 
 ## IMPORTANT
 I am not affiliated with the AniTube.in.ua project or its developers. I am simply a user of this portal and decided to voluntarily contribute to the PreMiD expansion for everyone.
+
 Я не є пов'язаний з проєктом AniTube.in.ua чи його розробниками. Я лише користувач цього порталу і вирішив добровільно зробити активність для всіх для розширення PreMiD.
 
 ## License
