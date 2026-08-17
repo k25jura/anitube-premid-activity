@@ -1,8 +1,9 @@
 # AniTube.in.ua - PreMiD Presence
 
-PreMiD Rich Presence activity for [AniTube.in.ua](https://anitube.in.ua/), a Ukrainian anime portal.
+PreMiD Discord Rich Presence activity for [AniTube.in.ua](https://anitube.in.ua/), a Ukrainian anime portal.
+Активність PreMiD у Discord Rich Presence для [AniTube.in.ua](https://anitube.in.ua/) — українського порталу про аніме.
 
----
+
 
 ## English
 
@@ -18,7 +19,7 @@ PreMiD Rich Presence activity for [AniTube.in.ua](https://anitube.in.ua/), a Ukr
 
 ### Installation & Development
 1. Clone the repository or download the source files.
-2. Install the [PreMiD browser extension](https://premid.app/) and desktop application.
+2. Install the [PreMiD browser extension](https://premid.app/).
 3. Enable **Activity Developer Mode** in the PreMiD extension settings.
 4. Load the activity directory through the PreMiD developer tab or run via the PreMiD CLI:
    ```bash
@@ -41,9 +42,9 @@ PreMiD Rich Presence activity for [AniTube.in.ua](https://anitube.in.ua/), a Ukr
 
 ### Встановлення та розробка
 1. Склонуйте репозиторій або завантажте файли.
-2. Встановіть розширення та програму [PreMiD](https://premid.app/).
-3. Увімкніть **Режим розробника активностей** у налаштуваннях розширення PreMiD.
-4. Завантажте папку активності через вкладку розробника або запустіть через PreMiD CLI:
+2. Встановіть розширення [PreMiD](https://premid.app/).
+3. Увімкніть **Параметри розробника** у налаштуваннях розширення PreMiD.
+4. Завантажте папку активності через параметри розробника або запустіть через PreMiD CLI:
    ```bash
    npx pmd dev "AniTube.in.ua"
    ```
