@@ -1,0 +1,77 @@
+{
+  "$schema": "https://schemas.premid.app/metadata/1.17",
+  "apiVersion": 1,
+  "author": {
+    "id": "719924155658666008",
+    "name": "k25jura"
+  },
+  "service": "AniTube.in.ua",
+  "altnames": [
+    "AniTube UA",
+    "AniTube",
+    "Анітьюб"
+  ],
+  "description": {
+    "en": "AniTube.in.ua is a popular Ukrainian anime portal for streaming anime series and movies online.",
+    "uk": "AniTube.in.ua — популярний український аніме-портал для перегляду аніме онлайн з українським озвученням та субтитрами."
+  },
+  "url": "anitube.in.ua",
+  "regExp": "^https?[:][/][/]([a-z0-9-]+[.])*anitube[.]in[.]ua[/]",
+  "version": "1.0.0",
+  "logo": "https://anitube.in.ua/apple-touch-icon.png",
+  "thumbnail": "https://anitube.in.ua/templates/AniTubenew/images/header_bg.jpg",
+  "color": "#316a8c",
+  "category": "anime",
+  "tags": [
+    "anitube",
+    "anime",
+    "ukraine",
+    "stream",
+    "online"
+  ],
+  "settings": [
+    {
+      "id": "forceLanguage",
+      "title": "Language",
+      "icon": "fad fa-globe",
+      "value": 0,
+      "values": [
+        "Українська",
+        "English"
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy Mode",
+      "icon": "fad fa-user-secret",
+      "value": false
+    },
+    {
+      "id": "showCover",
+      "title": "Show Anime Poster",
+      "icon": "fas fa-images",
+      "value": true,
+      "if": {
+        "privacy": false
+      }
+    },
+    {
+      "id": "showTimestamps",
+      "title": "Show Timestamps",
+      "icon": "fad fa-stopwatch",
+      "value": true,
+      "if": {
+        "privacy": false
+      }
+    },
+    {
+      "id": "showButtons",
+      "title": "Show Watch Button",
+      "icon": "fad fa-link",
+      "value": true,
+      "if": {
+        "privacy": false
+      }
+    }
+  ]
+}
